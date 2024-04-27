@@ -62,7 +62,7 @@ parameters_news = {
     "apiKey": NEWS_API_KEY,
 }
 
-# link = "https://newsapi.org/v2/everything?q=Tesla Inc&from=2024-04-23&to=2024-04-24&sortBy=popularity&apiKey=ce3a8d2566e74d21a8d172794fcf7c46"
+# link = "https://newsapi.org/v2/everything?q=Tesla Inc&from=2024-04-23&to=2024-04-24&sortBy=popularity&apiKey=********"
 
 news_response = requests.get("https://newsapi.org/v2/everything", params=parameters_news)
 news_response.raise_for_status()
